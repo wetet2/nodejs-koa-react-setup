@@ -7,12 +7,9 @@ const router = new Router();
 const api = require('./api')
 
 app.use(KoaStatic(path.resolve(__dirname, '../public')))
-
 router.use('/api', api.routes());
 app.use(router.routes()).use(router.allowedMethods());
 
-
-
 app.listen(4000, () => {
-    console.log('server is listening to port 4000');
+    console.log('Server is listening to port 4000');
 });

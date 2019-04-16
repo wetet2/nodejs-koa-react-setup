@@ -1,13 +1,7 @@
-1. > yarn
-2. > yarn build:server
-3. > yarn build:client
-4. > yarn server:start
-
-
 # nodejs-koa-react
-with babel 7 and webpack 4
+This is with babel 7 and webpack 4 for development
 
-**have to install and build modules before starting server ,**
+**you have to install and build modules before starting server**
 ```
 $ yarn
 ```
@@ -18,9 +12,10 @@ $ yarn build:server
 $ yarn build:client
 ```
 
-**after installation,**
+**after that,**
 ```
 $ yarn server:start
 ```
 
+you can see the website below
 http://localhost:4000/

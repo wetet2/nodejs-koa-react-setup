@@ -1,7 +1,7 @@
 const Router = require('koa-router');
 const api = new Router();
 
-api.get('/books', (ctx, next) => {
+api.get('/search', (ctx, next) => {
     ctx.body = 'GET ' + ctx.request.path;
 });
 
