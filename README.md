@@ -1,7 +1,7 @@
 # nodejs-koa-react-setup
 This is base setup with babel 7 and webpack 4 for starting React development
 
-**you have to install and build modules before starting server**
+**You have to install and build modules before starting server**
 ```
 $ yarn
 ```
